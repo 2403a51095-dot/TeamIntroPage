@@ -1,7 +1,127 @@
-<h2>New Intern</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team Introduction Page</title>
 
-<img src="intern.jpg" alt="Rahul" width="150">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
 
-<p>Name: Rahul</p>
-<p>Department: Computer Science and Engineering</p>
-<p>Role: Intern</p>
+        header {
+            background-color: #243b53;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            text-align: center;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #243b53;
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            color: #243b53;
+        }
+
+        .card p {
+            margin: 8px;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #243b53;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meet Our Team</h1>
+        <p>Welcome to our Team Introduction Page</p>
+    </header>
+
+    <div class="team">
+
+        <!-- Team Member 1 -->
+        <div class="card">
+            <img src="profile.jpeg" alt="Asvitha Reddy">
+
+            <h2>Asvitha Reddy</h2>
+
+            <p><b>Department:</b></p>
+            <p>Computer Science and Engineering</p>
+
+            <p><b>Role:</b> Developer</p>
+        </div>
+
+
+        <!-- Team Member 2 -->
+        <div class="card">
+            
+            <h2>Pavani</h2>
+
+            <p><b>Department:</b></p>
+            <p>Computer Science and Engineering</p>
+
+            <p><b>Role:</b> UI Designer</p>
+        </div>
+
+
+        <!-- New Intern -->
+        <div class="card">
+            <h2>Rahul</h2>
+
+            <p><b>Department:</b></p>
+            <p>Computer Science and Engineering</p>
+
+            <p><b>Role:</b> Intern</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Team Introduction Page</p>
+    </footer>
+
+</body>
+</html>
